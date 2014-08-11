@@ -1,0 +1,478 @@
+/*
+Theme Name: Mu Theta At Large
+Theme URI: http://underscores.me/
+Author: Lei
+Author URI: http://underscores.me/
+Description: Description
+Version: 1.0-wpcom
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: mtal
+Domain Path: /languages/
+Tags:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+ Mu Theta At Large is based on Underscores http://underscores.me/, (C) 2012-2014 Automattic, Inc.
+
+Resetting and rebuilding styles have been helped along thanks to the fine work of
+Eric Meyer http://meyerweb.com/eric/tools/css/reset/index.html
+along with Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+and Blueprint http://www.blueprintcss.org/
+*/
+
+/* Navigation */
+.logo img{
+	position: absolute;
+	top: 26px;
+	left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+}
+.nav {
+	width: 100%;
+	font-size: 1.2em;
+	position: relative;
+	padding: 29px 0;
+	text-align: center;
+}
+.nav-list{
+
+
+}
+.nav ul {
+	width: 95%;
+	text-align: center;
+	margin: 0 auto;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+.nav li {
+	display: inline;
+}
+.nav a {
+	color: #000;
+	padding: 10px 7px;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	line-height: 30px;
+}
+.nav li a {
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+/* Navigation Logo */
+
+.nav li:nth-child(5){
+	padding-left: 70px;
+	padding-right: 70px;
+	border-top: 20px solid #fff;
+	border-bottom: 20px solid #fff;
+}
+
+.nav li:last-child a {
+	border-right: 0;
+}
+.nav a:hover, .nav a:active {
+	color: #40024f;
+}
+
+.nav-mobile {
+  display:none; /* Hide from browsers that don't support media queries */
+  cursor:pointer;
+  position:absolute;
+  top:0;
+  right:0;
+  background:#C4C4C4 url(http://toddmotto.com/labs/responsive-nav/img/nav.svg) no-repeat center center;
+  height:40px;
+  width:40px;
+}
+/*Banner*/
+.banner-holder{
+	background-color: #40024f;
+	width: 100%;
+	text-align:center;
+	margin:  10px 0 50px 0;
+	padding: 40px 0 30px 0;
+}
+.banner-holder h1{
+	font: bold 70px/0.3em 'Playfair Display', serif;
+	color: #fff;
+	padding: 20px;
+}
+.banner-holder h2{
+	font: normal 40px/0.3em 'Playfair Display', serif;
+	padding: 20px;
+	color: #CDCACF;
+}
+/* Promo Buttons */
+.promo-wrap{
+	margin: 20px auto 30px auto; 
+	text-align: center;
+	color: #fff; 
+	font-size: 20px;
+}
+.promo-wrap a{
+	color:#fff;
+	text-decoration: none;
+}
+.promo-wrap .promo-red{
+	display:inline-block;
+	background:#900944; 
+	padding: 10px 0; 
+	width: 150px; 	
+}
+.promo-wrap .promo-red:hover, .promo-wrap .promo-red:active{
+	background:#C23874; 	
+}
+.promo-wrap .promo-blue{
+	display:inline-block;	
+	background:#0ca6ae; 
+	padding: 10px 0; 
+	width: 150px; 
+}
+.promo-wrap .promo-blue:hover, .promo-wrap .promo-blue:active{
+	background:#2FBEC5; 	
+}
+/*News and Events*/
+.news-container{
+	border-left: 3px solid #0ca6ae; 
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.events-container{
+	border-left: 3px solid #900944; 
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+
+/*Circlular Images*/
+.circular-wwr {
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	background: url("http://localhost:8888/wordpress-test/wp-content/uploads/2014/07/Sigma-Theta-Tau.jpg") no-repeat;
+	margin: 0 auto;
+}
+	
+.circular-pm{
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	background: url("http://localhost:8888/wordpress-test/wp-content/uploads/2014/07/president.jpg") no-repeat;
+	margin: 0 auto;
+}
+/*Footer*/
+.footer-holder{
+	background: #EFEEF0;
+	margin-top: 30px;
+	padding: 30px;
+}
+
+.footer-holder .footer-sm {
+margin: 0px 15px 0px 0px;
+float: left;
+}
+.credits{
+	background: #40024f;
+	padding: 30px;
+	text-align: center;
+	color: #fff;
+}
+/* #Page Styles
+================================================== */
+
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {
+		
+	}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+	.logo img {
+		width: 10%;
+		top: 10px;
+	}
+	.nav {
+		border-bottom: 0;
+		padding: 80px 0 0 0;
+	}
+	.nav ul {
+		
+		height: auto;
+		width: 100%;
+		padding: 0;
+		border-top: none;
+		border-bottom: none;
+	}
+
+	.nav li {
+		float: left;
+		
+		border-right: 1px solid #fff;
+		border-bottom: 1px solid #fff;
+		background-color: #EFEEF0;
+		margin-bottom: 0;
+	}
+	.nav li a {
+		width: 186px;
+		padding: 5px 0;
+
+		}
+	.nav li:nth-child(5){
+		padding-left: 0;
+		padding-right: 0;
+		border-top: none;
+		border-bottom: none;
+		display: none;
+	}
+	.nav li:nth-child(5) img{
+		display: none;
+	}
+
+	.nav a:hover, .nav a:active {
+		width: 186px;
+		padding: 5px 0;
+		color: #fff;
+		background-color: #40024f;
+	}
+	.banner-holder {
+		background-color: #40024f;
+		width: 100%;
+		text-align: center;
+		margin: 10px 0 30px 0;
+		padding: 40px 0 30px 0;
+	}
+
+	.banner-holder h1{
+		font: bold 55px/1em 'Playfair Display', serif;
+		color: #fff;
+		padding: 0;
+	}
+	.banner-holder h2{
+		font: normal 35px/1em 'Playfair Display', serif;
+		padding: 0;
+		color: #CDCACF;
+	}
+		
+	}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+	.logo img {
+		width: 20%;
+		top: 10px;
+	}
+	.nav {
+		border-bottom: 0;
+		padding: 80px 0 0 0;
+	}
+	.nav ul {
+		
+		height: auto;
+		width: 100%;
+		padding: 0;
+		border-top: none;
+		border-bottom: none;
+	}
+
+	.nav li {
+		float: left;
+		width: 25%;
+		border-bottom: 1px solid #fff;
+		background-color: #EFEEF0;
+		margin-bottom: 0;
+	}
+	.nav li a {
+		width: 186px;
+		padding: 5px 0;
+		}
+	.nav li:nth-child(5){
+		padding-left: 0;
+		padding-right: 0;
+		border-top: none;
+		border-bottom: none;
+		display: none;
+	}
+	.nav li:nth-child(5) img{
+		display: none;
+	}
+
+	.nav a:hover, .nav a:active {
+		padding: 5px 0;
+		color: #fff;
+		width: 186px;
+		background-color: #40024f;
+	}
+	.banner-holder {
+		background-color: #40024f;
+		width: 100%;
+		text-align: center;
+		margin: 10px 0 30px 0;
+		padding: 40px 0 30px 0;
+	}
+	.banner-holder h1{
+			font: bold 25px/1em 'Playfair Display', serif;
+			color: #fff;
+			padding: 0;
+		}
+	.banner-holder h2{
+		font: normal 16px/1em 'Playfair Display', serif;
+		padding: 0;
+		color: #CDCACF;
+	}
+	}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.logo img {
+		width: 20%;
+		top: 10px;
+	}
+	.nav {
+		padding:75px 0 0 0;
+		border-bottom: 0;
+	}
+	.nav ul {
+		height: auto;
+	}
+
+	.nav li {
+		display: block;
+		float: none;
+		width: 100%;
+	}
+	.nav a:hover, .nav a:active {
+		width: 100%;
+	}
+
+	.nav li {
+		display: block;
+		float: none;
+		width: 100%;
+
+		border-bottom: 1px solid #fff;
+		background-color: #EFEEF0;
+		margin-bottom: 0;
+	}
+
+	.nav li:nth-child(5){
+		padding-left: 0;
+		padding-right: 0;
+		border-top: none;
+		border-bottom: none;
+		display: none;
+	}
+
+	.nav-mobile {
+    	display:block;
+  	}
+  	.nav-list {
+    	display:none;
+  	}
+  	.nav-active {
+		display:block;
+	}
+	
+	.banner-holder h1{
+		font: bold 35px/1em 'Playfair Display', serif;
+		color: #fff;
+		padding: 0;
+	}
+	.banner-holder h2{
+		font: normal 25px/1em 'Playfair Display', serif;
+		padding: 0;
+		color: #CDCACF;
+	}
+}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+	.logo img {
+		width: 20%;
+		top: 10px;
+	}
+	.nav {
+		border-bottom: 0;
+		padding: 55px 0 0 0;
+	}
+	.nav ul {
+		height: auto;
+		width: 100%;
+		padding: 0;
+		border-top: none;
+		border-bottom: none;
+	}
+	.nav li {
+		display: block;
+		float: none;
+		width: 100%;
+
+		border-bottom: 1px solid #fff;
+		background-color: #EFEEF0;
+		margin-bottom: 0;
+	}
+
+	.nav li:nth-child(5){
+		padding-left: 0;
+		padding-right: 0;
+		border-top: none;
+		border-bottom: none;
+		display: none;
+	}
+	.nav li:nth-child(5) img{
+		display: none;
+	}
+	.nav li:hover, .nav li:active {
+		background-color: #40024f;
+		color: #fff;
+	}
+	.nav a:hover, .nav a:active {
+		width: 100%;
+		color: #fff;
+	}
+	.nav-mobile {
+    	display:block;
+  	}
+  	.nav-list {
+    	display:none;
+  	}
+	.nav-active {
+		display:block;
+	}
+
+	.banner-holder {
+		background-color: #40024f;
+		width: 100%;
+		text-align: center;
+		margin: 10px 0 30px 0;
+		padding: 40px 0 30px 0;
+	}
+	.banner-holder h1{
+			font: bold 25px/1em 'Playfair Display', serif;
+			color: #fff;
+			padding: 0;
+		}
+	.banner-holder h2{
+		font: normal 18px/1em 'Playfair Display', serif;
+		padding: 0;
+		color: #CDCACF;
+	}
+	.promo-red{
+		border-bottom: 1px solid #fff;	
+	}
+
+}
