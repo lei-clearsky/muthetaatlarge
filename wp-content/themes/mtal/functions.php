@@ -75,11 +75,10 @@ add_action( 'after_setup_theme', 'mtal_setup' );
  *
  * @link http://codex.wordpress.org/Function_Reference/register_sidebar
  */
-function mtal_widgets_init() {
-	register_widget( 'WP_Widget_Test' );
 
+function mtal_widgets_init() {
 	register_sidebar( array(
-		'name'          => __( 'Sidebar', 'mtal' ),
+		'name'          => __( 'Sidebar', 'college' ),
 		'id'            => 'sidebar-1',
 		'description'   => '',
 		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
@@ -87,8 +86,28 @@ function mtal_widgets_init() {
 		'before_title'  => '<h1 class="widget-title">',
 		'after_title'   => '</h1>',
 	) );
+
+	create_widget('Left Footer', 'footer_left', 'Displays in the bottom left of footer');
+	create_widget('Middle Footer', 'footer_middle', 'Displays in the bottom middle of footer');
+	create_widget('Right Footer', 'footer_right', 'Displays in the bottom right of footer');
+	create_widget('Upcoming Events', 'upcoming_events', 'Displays in the calendar upcoming events section');
+
 }
+
 add_action( 'widgets_init', 'mtal_widgets_init' );
+
+function create_widget($name, $id, $description){
+	$args = array(
+		'name'          => __( $name ),
+		'id'            => $id,
+		'description'   => $description,
+		'before_widget' => '',
+		'after_widget'  => '',
+		'before_title'  => '<h3>',
+		'after_title'   => '</h3>' 
+	);
+	register_sidebar( $args );
+}
 
 /**
  * Enqueue scripts and styles.

@@ -1,6 +1,6 @@
 <?php
 /**
- * The template for displaying all pages.
+ * Template Name: Calendar - MTAL
  *
  * This is the template that displays all pages by default.
  * Please note that this is the WordPress construct of pages
@@ -17,15 +17,19 @@ get_header(); ?>
 
 			<h1 style="color:#40024f; text-align:center;"><?php the_title(); ?> </h1>
 			<?php while ( have_posts()&& !empty(get_field('page_summary')) ) : the_post(); ?>  
-				<h3 style="margin:30px 90px 10px 90px;"><?php the_field('page_summary'); ?></h3>
-			<?php endwhile?> 
-			<div style="margin:30px auto; width:15%; height:1px; background:#ccc; "></div>    
+				<h3 style="margin:20px 60px;"><?php the_field('page_summary'); ?></h3>
+			<?php endwhile?>     
 			</div>
 				
 
 			<?php while ( have_posts() ) : the_post(); ?>
 
-				<?php get_template_part( 'content', 'page' ); ?>
+				<?php if( dynamic_sidebar( 'upcoming_events' )): ?>
+
+			    <?php else: ?>
+			      <h3>Upcoming Events</h3>
+			      <p>Install Event Organizer Plugin.</p>
+			    <?php endif; ?>
 
 			<?php endwhile; // end of the loop. ?>
 

@@ -91,7 +91,7 @@ and Blueprint http://www.blueprintcss.org/
   height:40px;
   width:40px;
 }
-/*Banner*/
+/* Banner */
 .banner-holder{
 	background-color: #40024f;
 	width: 100%;
@@ -138,7 +138,7 @@ and Blueprint http://www.blueprintcss.org/
 .promo-wrap .promo-blue:hover, .promo-wrap .promo-blue:active{
 	background:#2FBEC5; 	
 }
-/*News and Events*/
+/* News and Events */
 .news-container{
 	border-left: 3px solid #0ca6ae; 
 	padding-left: 10px;
@@ -152,7 +152,7 @@ and Blueprint http://www.blueprintcss.org/
 }
 
 
-/*Circlular Images*/
+/* Circlular Images */
 .circular-wwr {
 	width: 200px;
 	height: 200px;
@@ -172,7 +172,59 @@ and Blueprint http://www.blueprintcss.org/
 	background: url("http://localhost:8888/wordpress-test/wp-content/uploads/2014/07/president.jpg") no-repeat;
 	margin: 0 auto;
 }
-/*Footer*/
+/* Calendar - Event Listing */
+.eventSideBox{
+  float: left;
+  width: 100%;
+  border-bottom:1px solid #ccc;
+}
+.eventSideBox .leftC {
+	border-radius:4px;
+  background:#fff;
+  border:1px solid #40024f;
+  color: #40024f;
+  float: left;
+  font-size: 16px;
+  font-weight: bold;
+  background-repeat: no-repeat;
+  line-height: 1.2em;
+  margin: 10px 30px;
+  text-align: center;
+  width: 100px;;
+  padding:0px 0px 10px 0px;
+}
+.eventSideBox .month {
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-weight: bold;
+  line-height: 1em;
+  color:#fff;
+  background:#40024f;
+  padding:10px;
+}
+.eventSideBox .day {
+  font-size: 60px;
+  line-height:1em;
+  font-weight: bold;
+}
+.eventSideBox .weekday {
+  font-size: 16px;
+  line-height: 1em;
+  font-weight: bold;
+}
+.eventSideBox .eventInfo {
+  clear: right;
+  margin: 10px 0px;
+  line-height: 1.5em;
+
+}
+.eventSideBox .eventInfo .time{
+  display: block !important;
+  font-weight: bold !important;
+  color: #D41733 !important;
+}
+/* Footer */
 .footer-holder{
 	background: #EFEEF0;
 	margin-top: 30px;
@@ -473,6 +525,9 @@ float: left;
 	}
 	.promo-red{
 		border-bottom: 1px solid #fff;	
+	}
+	.eventSideBox .leftC {
+	  margin: 10px 10px 10px 0px;
 	}
 
 }
