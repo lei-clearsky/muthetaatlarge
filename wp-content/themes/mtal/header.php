@@ -48,15 +48,15 @@
 			<nav class="nav" style="margin-top: 25px"> 
 				
 				<ul class="nav-list"> 
-					<li><a href="<?php echo get_page_link(45); ?>">Links</a></li> 
+					<li><a href="<?php echo get_page_link(39); ?>">About</a></li> 
 					<li><a href="<?php echo get_page_link(47); ?>">Awards</a></li> 
 					<li><a href="<?php echo get_page_link(17); ?>">Patron Project</a></li> 
 					<li><a href="<?php echo get_page_link(15); ?>">Donations</a></li> 
 					<li></li> 			
 					<li><a href="<?php echo get_page_link(6); ?>">Membership</a></li>  
 					<li><a href="<?php echo get_page_link(24); ?>">Calendar</a></li>  
-					<li><a href="<?php echo get_page_link(15); ?>">Officers</a></li>  
-					<li><a href="<?php echo get_page_link(39); ?>">About Us</a></li>  					   
+					<li><a href="<?php echo get_page_link(49); ?>">Officers</a></li>  
+					<li><a href="<?php echo get_page_link(54); ?>">Contact Us</a></li>  					   
 				</ul> 
 			  
 			</nav>

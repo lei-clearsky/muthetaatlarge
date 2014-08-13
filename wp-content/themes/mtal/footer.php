@@ -16,6 +16,7 @@
 			<div class="one-third column">
 				<h3>Quick Links</h3>
 				<ul class="square">
+					<li><a href="<?php echo get_page_link(45); ?>">Links</a></li>
 					<li>New Inductee Corner</li>
 					<li>Sigma Theta Tau</li>
 					<li>Scholarship</li>

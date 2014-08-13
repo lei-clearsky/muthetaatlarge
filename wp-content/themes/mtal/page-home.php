@@ -23,8 +23,8 @@ get_header(); ?>
 			<h4 style="text-align: center;">Make Sigma Theta Tau the First Step of Your Journey to Nursing Excellence</h4>
 
 			<div class="promo-wrap">
-			<div class="promo-red"><a href="#">Learn More</a></div>
-			<div class="promo-blue"><a href="#">Join Us!</a></div>
+			<div class="promo-red"><a href="<?php echo get_page_link(39); ?>">Learn More</a></div>
+			<div class="promo-blue"><a href="<?php echo get_page_link(6); ?>">Join Us!</a></div>
 			</div>
 		</div>
 		
