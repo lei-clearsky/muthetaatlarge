@@ -7,13 +7,15 @@
 
 get_header(); ?>
 
-	<section id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
+	<div class="sixteen columns">
+			<div class="banner-holder" style="background-color:#fff;">
+
+			<h1 style="color:#40024f; text-align:center;"><?php the_title(); ?> </h1>
 
 		<?php if ( have_posts() ) : ?>
 
 			<header class="page-header">
-				<h1 class="page-title"><?php printf( __( 'Search Results for: %s', 'mtal' ), '<span>' . get_search_query() . '</span>' ); ?></h1>
+				<h3 class="page-title"><?php printf( __( 'Search Results for: %s', 'mtal' ), '<span>' . get_search_query() . '</span>' ); ?></h3>
 			</header><!-- .page-header -->
 
 			<?php /* Start the Loop */ ?>
@@ -38,8 +40,7 @@ get_header(); ?>
 
 		<?php endif; ?>
 
-		</main><!-- #main -->
-	</section><!-- #primary -->
+		</div>
+	</div>
 
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>

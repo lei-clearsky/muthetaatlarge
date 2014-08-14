@@ -241,6 +241,27 @@ float: left;
 	text-align: center;
 	color: #fff;
 }
+/* Search form */
+.searchTop {
+  display:block;
+  width:100%;
+}
+
+.searchTop input[type="search"] {
+    border: 1px solid #d1d1d1;
+    color: #bebebe;
+    width: 75%;
+    font-size: 14px;
+    float: left;
+    padding: 7px 15px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    -webkit-transition: all 0.7s ease 0s;
+    -moz-transition: all 0.7s ease 0s;
+    -o-transition: all 0.7s ease 0s;
+    transition: all 0.7s ease 0s;
+    }
 /* #Page Styles
 ================================================== */
 
