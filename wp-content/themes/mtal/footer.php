@@ -57,19 +57,34 @@
 
 			<h3>Connect with Us</h3>
 			<div class="footer-sm">
-			<div class="footer-sm-icon"><a href="#" target="_blank"><img alt="facebook" src="http://cmsdev2.cse.edu/responsive/img/facebook-48.png" title="Facebook"></a></div>
+			<div class="footer-sm-icon"><a href="#" target="_blank"><img alt="facebook" src="<?php echo get_template_directory_uri(); ?>/images/facebook-48.png" title="Facebook"></a></div>
 			
 			<div class="footer-sm-info">
 				Like Mu Theta At Large on facebook!
 			</div>
 			</div>
 			<div class="footer-sm">
-			<div class="footer-sm-icon"><a href="#" target="_blank"><img alt="Twitter" src="http://cmsdev2.cse.edu/responsive/img/email-48.png" title="Email"></a></div>	
+			<div class="footer-sm-icon"><a href="#" target="_blank"><img alt="Twitter" src="<?php echo get_template_directory_uri(); ?>/images/email-48.png" title="Email"></a></div>	
 			
 			<div class="footer-sm-info">
-				Contact us at muthetaatlarge@gmail.com
+				Contact us regarding the Chapter, website and newsleter!
+				<p>
+				<ul>
+					<li>
+						<strong>Chapter:</strong> thompsons@felician.edu
+					</li>
+					<li>
+						<strong>Website:</strong> bhwright15@optonline.net
+					</li>
+					<li>
+						<strong>Newsletter:</strong> koppelaine@yahoo.com
+					</li>
+				</ul>
+				</p>
 			</div>
+
 			</div>
+
 		</div>
 	</div>
 	
