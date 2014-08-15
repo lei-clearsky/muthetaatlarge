@@ -225,16 +225,21 @@ and Blueprint http://www.blueprintcss.org/
   color: #D41733 !important;
 }
 /* Footer */
-.footer-holder{
-	background: #EFEEF0;
-	margin-top: 30px;
-	padding: 30px;
+.footer-sm{
+	margin-top: 30px 0;
+	width: 100%;
 }
 
-.footer-holder .footer-sm {
-margin: 0px 15px 0px 0px;
-float: left;
+.footer-sm .footer-sm-icon {
+	width:100px;
+	float: left;
 }
+.footer-sm .footer-sm-info {
+	width:200px;
+	padding: 10px 0px 10px 60px;
+	float: left;
+}
+
 .credits{
 	background: #40024f;
 	padding: 30px;

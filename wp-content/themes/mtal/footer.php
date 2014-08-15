@@ -27,9 +27,7 @@
 					<li>Suggested Reading (Monthly articles)</li>
 					<li>Chapter Elections</li>
 				</ul>
-				<h3>Search</h3>
-					<!-- Search Form --> 
-        			<?php get_search_form(); ?>
+				
 			</div>
 			
 			<div class="one-third column">
@@ -53,14 +51,25 @@
 			
 			<div class="one-third column">
 			
-			<h3>Like Us on Facebook!</h3>	
-			<div class="fb-like-box" data-href="https://www.facebook.com/pages/Mu-Psi-at-Large-Sigma-Theta-Tau-International/548104325229628" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div>	
-			 
+			<h3>Search</h3>
+				<!-- Search Form --> 
+    			<?php get_search_form(); ?>
 
 			<h3>Connect with Us</h3>
+			<div class="footer-sm">
+			<div class="footer-sm-icon"><a href="#" target="_blank"><img alt="facebook" src="http://cmsdev2.cse.edu/responsive/img/facebook-48.png" title="Facebook"></a></div>
 			
-			<div class="footer-sm"><a href="#" target="_blank"><img alt="facebook" src="http://cmsdev2.cse.edu/responsive/img/facebook-48.png" title="Facebook"></a></div>
-			<div class="footer-sm"><a href="#" target="_blank"><img alt="Twitter" src="http://cmsdev2.cse.edu/responsive/img/email-48.png" title="Email"></a></div>	
+			<div class="footer-sm-info">
+				Like Mu Theta At Large on facebook!
+			</div>
+			</div>
+			<div class="footer-sm">
+			<div class="footer-sm-icon"><a href="#" target="_blank"><img alt="Twitter" src="http://cmsdev2.cse.edu/responsive/img/email-48.png" title="Email"></a></div>	
+			
+			<div class="footer-sm-info">
+				Contact us at muthetaatlarge@gmail.com
+			</div>
+			</div>
 		</div>
 	</div>
 	
