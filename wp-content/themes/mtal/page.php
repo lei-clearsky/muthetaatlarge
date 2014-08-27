@@ -13,13 +13,13 @@
 get_header(); ?>
 
 		<div class="sixteen columns">
-			<div class="banner-holder" style="background-color:#fff;">
+			<div class="page-heading">
 
-			<h1 style="color:#40024f; text-align:center;"><?php the_title(); ?> </h1>
+			<h1><?php the_title(); ?> </h1>
 			<?php 
 				$page_summary = get_field('page_summary');
 			while ( have_posts()&& !empty($page_summary) ) : the_post(); ?>  
-				<h3 style="margin:30px 90px 10px 90px;"><?php the_field('page_summary'); ?></h3>
+				<h3><?php the_field('page_summary'); ?></h3>
 			<?php endwhile?> 
 			<div style="margin:30px auto; width:15%; height:1px; background:#ccc; "></div>    
 			</div>
